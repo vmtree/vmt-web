@@ -106,6 +106,7 @@ const SecondButton = ({ pageType }) => {
       color="blue"
       moralisAuth={false}
       signingMessage="Sign to login to VMTree"
+      zIndex="2147483647"
     />
   );
 };
