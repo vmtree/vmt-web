@@ -53,7 +53,7 @@ const Hero = ({ handleVMTreeCreation }) => {
         <Button
           bgColor="#365AD2"
           color="#fff"
-          rightIcon={<AddIcon />}
+          leftIcon={<AddIcon />}
           _hover={{
             background: "#fff",
             borderColor: "#365AD2",
@@ -76,7 +76,7 @@ const Hero = ({ handleVMTreeCreation }) => {
             <ModalCloseButton />
             <ModalBody pb={6}>
               <FormControl>
-                <FormLabel>Owners's ETH Address</FormLabel>
+                <FormLabel>Owners&apos;s ETH Address</FormLabel>
                 <Input
                   ref={initialRef}
                   placeholder="Enter Address"
@@ -85,7 +85,7 @@ const Hero = ({ handleVMTreeCreation }) => {
               </FormControl>
 
               <FormControl mt={4}>
-                <FormLabel>Controller's ETH Address</FormLabel>
+                <FormLabel>Controller&apos;s ETH Address</FormLabel>
                 <Input placeholder="Enter Address" width="32em" />
               </FormControl>
 
