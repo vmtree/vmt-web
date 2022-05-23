@@ -65,7 +65,7 @@ const Hero = ({ handleVMTreeCreation }) => {
           borderRadius={18}
           zIndex="-1"
         >
-          Deploy A New VMTree
+          Deploy A New VMTree!
         </Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
