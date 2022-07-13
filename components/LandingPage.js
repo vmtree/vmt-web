@@ -43,7 +43,7 @@ const LandingPage = (props) => {
             <Flex
               ml="15%"
               bgColor="#3c3c3c"
-              borderBottomRadius="50%"
+              borderBottomRadius="0%"
               p="1%"
               h="full"
             >
@@ -196,7 +196,7 @@ const LandingPage = (props) => {
           >
             <ChevronDownIcon
               boxSize="10"
-              borderRadius="50%"
+              borderRadius="0%"
               color="#365AD2"
               zIndex="9999"
             />
@@ -276,7 +276,7 @@ const LandingPage = (props) => {
         alignContent="center"
         alignItems="center"
       >
-        <Flex w="50%" alignContent="center" alignItems="center">
+        <Flex w="0%" alignContent="center" alignItems="center">
           <Text textAlign="center" letterSpacing="wide">
             VMTree allows anyone to deploy a verifable merkle tree using the
             chainlink network. Lorem ipsum condimentum ornare ante, at maximus
