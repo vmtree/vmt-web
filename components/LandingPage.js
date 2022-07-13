@@ -42,7 +42,7 @@ const LandingPage = (props) => {
             w="full"
           >
             
-            <Flex mr="40%" flexDirection="column" h="full">
+            <Flex m="80%" flexDirection="column" h="full">
               <Heading
                 letterSpacing="widest"
                 fontSize="5xl"
