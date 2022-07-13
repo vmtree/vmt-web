@@ -42,7 +42,7 @@ const LandingPage = (props) => {
           >
             <Flex
               ml="15%"
-              bgColor="#365AD2"
+              bgColor="#3c3c3c"
               borderBottomRadius="50%"
               p="1%"
               h="full"
@@ -112,7 +112,7 @@ const LandingPage = (props) => {
                   pl="2em"
                   pr="1em"
                   borderRadius={155}
-                  bg="#365AD2"
+                  bg="#3c3c3c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#365AD2" }}

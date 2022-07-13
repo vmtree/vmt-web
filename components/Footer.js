@@ -32,7 +32,7 @@ const Footer = () => {
         backgroundImage="url(/footer_bg.svg)"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
-        bgColor="#365AD2"
+        bgColor="#3c3c3c"
         borderTopRadius="50%"
         w="full"
       >
