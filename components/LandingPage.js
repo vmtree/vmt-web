@@ -32,7 +32,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="30vh"
+            pt="10vh"
             margin="150px"
             mb="5em"
             backgroundSize="contain"
@@ -50,7 +50,7 @@ const LandingPage = (props) => {
               >
                 VRMeta Center & VRmeta Sports
               </Heading>
-              <Text letterSpacing="widest">Verifiable Merkle Trees</Text>
+              <Text letterSpacing="widest">Verifia  ble Merkle Trees</Text>
               <Link sx={{ textDecoration: "none" }} href="/dapp">
                 <Button
                   variant="solid"
