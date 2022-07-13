@@ -91,7 +91,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -115,7 +115,7 @@ const ExploreVMTs = (props) => {
             <Image src="VRMCrrturqalpha.png" alt="enabled" />
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -141,7 +141,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -167,7 +167,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -193,7 +193,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -219,7 +219,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -245,7 +245,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -271,7 +271,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -297,7 +297,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -323,7 +323,7 @@ const ExploreVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>

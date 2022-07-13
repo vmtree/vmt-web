@@ -94,7 +94,7 @@ const ManageVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -118,7 +118,7 @@ const ManageVMTs = (props) => {
             <Image src="disabled_vmt.svg" alt="disabled" />
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
@@ -144,7 +144,7 @@ const ManageVMTs = (props) => {
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
-            <Text>28.7502 LINK</Text>
+            <Text>0.034 BNB</Text>
             <Text isNumeric>72</Text>
             <Text>13.07.2022</Text>
             <Text>
