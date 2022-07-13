@@ -347,7 +347,7 @@ const ExploreVMTs = (props) => {
               pl="2em"
               pr="1em"
               borderRadius={155}
-              bg="#365AD2"
+              bg="#3c3c3c"
               color="#fff"
               rightIcon={<ChevronDownIcon />}
               _hover={{ background: "#fff", color: "#365AD2" }}

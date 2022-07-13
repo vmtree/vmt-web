@@ -142,7 +142,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={2}
-      bg="#365AD2"
+      bg="#3c3c3c"
       {...props}
     >
       {children}

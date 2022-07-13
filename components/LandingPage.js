@@ -66,7 +66,7 @@ const LandingPage = (props) => {
                   pl="2em"
                   pr="1em"
                   borderRadius={155}
-                  bg="#365AD2"
+                  bg="#3c3c3c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#365AD2" }}
@@ -225,7 +225,7 @@ const LandingPage = (props) => {
       >
         <Flex
           flexDirection="column"
-          backgroundColor="#365AD2"
+          backgroundColor="#3c3c3c"
           color="#fff"
           p="5%"
           maxW="65%"
