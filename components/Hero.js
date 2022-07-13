@@ -49,7 +49,7 @@ const Hero = ({ handleVRMCCreation }) => {
         onClick={handleVRMCCreation}
       >
         <Link>
-          <Image src="/add_new_vmt_icon.svg" alt="VRMC" mt="5em" />
+          <Image src="/VRMCrrturqalpha.png" alt="VRMC" mt="5em" />
         </Link>
         <Button
           bgColor="#3c3c3c"

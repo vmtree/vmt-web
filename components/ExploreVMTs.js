@@ -87,7 +87,7 @@ const ExploreVMTs = (props) => {
             margin="1em"
           >
             <Text>
-              <Image src="enabled_vmt.svg" alt="enabled" />
+              <Image src="VRMCrrturqalpha.png" alt="enabled" />
             </Text>
             <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
             <Text>Test Merkle Tree #1</Text>
@@ -112,7 +112,7 @@ const ExploreVMTs = (props) => {
             color="gray.600"
             margin="1em"
           >
-            <Image src="enabled_vmt.svg" alt="enabled" />
+            <Image src="VRMCrrturqalpha.png" alt="enabled" />
             <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
             <Text>Test Merkle Tree #1</Text>
             <Text>28.7502 LINK</Text>
