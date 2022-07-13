@@ -32,9 +32,9 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="150em"
+            pt="50vh"
             margin="150px"
-            mb="55em"
+            mb="5em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"
             backgroundPosition="right"
@@ -42,7 +42,7 @@ const LandingPage = (props) => {
             w="full"
           >
             
-            <Flex m="80%" flexDirection="column" h="full">
+            <Flex mr="40%" flexDirection="column" h="full">
               <Heading
                 letterSpacing="widest"
                 fontSize="5xl"
@@ -55,7 +55,7 @@ const LandingPage = (props) => {
                 <Button
                   variant="solid"
                   size="sm"
-                  mt="10em"
+                  mt="2em"
                   pl="2em"
                   pr="1em"
                   borderRadius={155}
@@ -271,7 +271,7 @@ const LandingPage = (props) => {
       >
         <Flex w="0%" alignContent="center" alignItems="center">
           <Text textAlign="center" letterSpacing="wide">
-            VRMC allows anyone to deploy a verifable merkle tree using the
+            VMTree allows anyone to deploy a verifable merkle tree using the
             chainlink network. Lorem ipsum condimentum ornare ante, at maximus
             sapien porta sit amet. Morbi orci lectus, cursus ut ipsum convallis,
             tempor feugiat quam. In vel odio non velit blandit lobortis. Mauris
