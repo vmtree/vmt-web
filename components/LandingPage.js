@@ -69,7 +69,7 @@ const LandingPage = (props) => {
                   bg="#3c3c3c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
-                  _hover={{ background: "#fff", color: "#365AD2" }}
+                  _hover={{ background: "#fff", color: "#3c3c3c" }}
                 >
                   Buy Tokens
                 </Button>
@@ -103,7 +103,7 @@ const LandingPage = (props) => {
               >
                 VMTree
               </Heading>
-              <Text letterSpacing="widest">Verifiable Merkle Trees</Text>
+              <Text letterSpacing="widest">VRMetaCenter</Text>
               <Link sx={{ textDecoration: "none" }}>
                 <Button
                   variant="solid"
@@ -115,7 +115,7 @@ const LandingPage = (props) => {
                   bg="#3c3c3c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
-                  _hover={{ background: "#fff", color: "#365AD2" }}
+                  _hover={{ background: "#fff", color: "#3c3c3c" }}
                 >
                   Try it!
                 </Button>
@@ -257,7 +257,7 @@ const LandingPage = (props) => {
           >
             <DownloadIcon
               boxSize="80px"
-              color="#365AD2"
+              color="#3c3c3c"
               zIndex="9999"
               p="20%"
             />
