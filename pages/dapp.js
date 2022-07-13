@@ -32,7 +32,7 @@ export default function Dapp() {
     },
   });
 
-  const handleVMTreeCreation = () => {
+  const handleVRMCCreation = () => {
     runContractFunction();
     console.log(".........................");
   };
@@ -45,7 +45,7 @@ export default function Dapp() {
       </Head>
       <Box w="100vw" maxW="100vw" mt="0" m="auto">
         <NavBar as="header" position="fixed" w="100%" pageType="dapp_page"/>
-        <Hero handleVMTreeCreation={handleVMTreeCreation} />
+        <Hero handleVRMCCreation={handleVRMCCreation} />
         <ManageVMTs />
         <ExploreVMTs />
         <Footer />

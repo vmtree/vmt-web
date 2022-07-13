@@ -105,7 +105,7 @@ const SecondButton = ({ pageType }) => {
     <ConnectButton
       color="blue"
       moralisAuth={false}
-      signingMessage="Sign to login to VMTree"
+      signingMessage="Sign to login to VRMC"
       zIndex="2147483647"
     />
   );
@@ -115,7 +115,7 @@ const Logo = (props) => {
   return (
     <Flex alignItems="center">
       <Link href="/" pl={5}>
-        <Image src="/vmtree_logo.svg" alt="VMTree" boxSize="90%" />
+        <Image src="/VRMC_logo.svg" alt="VRMC" boxSize="90%" />
       </Link>
       <Link href="/" _hover={{ textDecoration: "none" }}>
         <Text
@@ -125,7 +125,7 @@ const Logo = (props) => {
           fontSize={36}
           letterSpacing="wider"
         >
-          VMTree
+          VRMC
         </Text>
       </Link>
     </Flex>

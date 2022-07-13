@@ -38,14 +38,14 @@ const Footer = () => {
       >
         <Image
           src="/vmt_logo_white.svg"
-          alt="VMTree"
+          alt="VRMC"
           mt="-4em"
           boxSize="150px"
         />
         <Flex flexDirection="column">
           <Flex>
             <Link
-              href="https://github.com/vmtree/chainlink-vmt/"
+              href="https://github.com/VRMC/chainlink-vmt/"
               isExternal="true"
               sx={{ textDecoration: "none" }}
               _hover={{ textDecoration: "none" }}
@@ -59,7 +59,7 @@ const Footer = () => {
                 _hover={{ background: "#2c4cb6", color: "#fff" }}
                 sx={{ textDecoration: "none" }}
               >
-                GITHUB
+                Documentation
               </Button>
             </Link>
             {/* TODO: add docs link here */}
@@ -77,13 +77,13 @@ const Footer = () => {
                 bg="#fff"
                 _hover={{ background: "#2c4cb6", color: "#fff" }}
               >
-                ABOUT
+                DAPP
               </Button>
             </Link>
           </Flex>
         </Flex>
         <Code color="whiteAlpha.600" mb="2em" mt="4em" fontSize="sm" bg="none">
-          © Copyright 2022 VMTree - All rights reserved
+          © Copyright 2022 VRMC - All rights reserved
         </Code>
       </Flex>
     </Flex>

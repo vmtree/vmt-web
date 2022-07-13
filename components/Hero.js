@@ -22,7 +22,7 @@ import {
 import { useState } from "react";
 import { Icon, Input, Typography } from "web3uikit";
 
-const Hero = ({ handleVMTreeCreation }) => {
+const Hero = ({ handleVRMCCreation }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -46,10 +46,10 @@ const Hero = ({ handleVMTreeCreation }) => {
         flexDirection="column"
         justifyContent="space-between"
         alignItems="center"
-        onClick={handleVMTreeCreation}
+        onClick={handleVRMCCreation}
       >
         <Link>
-          <Image src="/add_new_vmt_icon.svg" alt="VMTree" mt="5em" />
+          <Image src="/add_new_vmt_icon.svg" alt="VRMC" mt="5em" />
         </Link>
         <Button
           bgColor="#3c3c3c"
@@ -66,14 +66,14 @@ const Hero = ({ handleVMTreeCreation }) => {
           borderRadius={0}
           zIndex="-1"
         >
-          Deploy A New VMTree!
+          Deploy A New VRMC!
         </Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent w="full">
             <ModalHeader justifyContent="center">
-              Deploy A New VMTree
+              Deploy A New VRMC
             </ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
@@ -92,7 +92,7 @@ const Hero = ({ handleVMTreeCreation }) => {
               </FormControl>
 
               <FormControl mt={4}>
-                <FormLabel>LINKs to Prefund the VMTree</FormLabel>
+                <FormLabel>LINKs to Prefund the VRMC</FormLabel>
                 <Input placeholder="Enter #LINK" width="32em" />
               </FormControl>
             </ModalBody>
