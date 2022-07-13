@@ -140,7 +140,7 @@ const LandingPage = (props) => {
           backgroundPosition="right"
           backgroundRepeat="no-repeat"
           w="full"
-          bg="#365AD2"
+          bg="rgb(12 12 12 / 80%)"
           zIndex="0"
         >
           <Flex
@@ -149,10 +149,10 @@ const LandingPage = (props) => {
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              38
+              VRMeta Center
             </Text>
             <Text fontSize="sm" color="#fff">
-              Merke Trees Deployed
+              Token name
             </Text>
           </Flex>
           <Center height="50px">
@@ -164,10 +164,10 @@ const LandingPage = (props) => {
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              287
+              VRMC
             </Text>
             <Text fontSize="sm" color="#fff">
-              Transactions
+              SYMBOL
             </Text>
           </Flex>
           <Center height="50px">
@@ -179,10 +179,10 @@ const LandingPage = (props) => {
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              5982
+              1000000000000
             </Text>
             <Text fontSize="sm" color="#fff">
-              Fee Generated
+              SUPPLY
             </Text>
           </Flex>
         </Flex>

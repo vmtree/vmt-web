@@ -40,7 +40,7 @@ export default function Dapp() {
   return (
     <>
       <Head>
-        <title>VMTree | DAPP </title>
+        <title>VRMeta Center </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Box w="100vw" maxW="100vw" mt="0" m="auto">

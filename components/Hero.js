@@ -56,13 +56,13 @@ const Hero = ({ handleVMTreeCreation }) => {
           leftIcon={<AddIcon />}
           _hover={{
             background: "#fff",
-            borderColor: "#365AD2",
+            borderColor: "#444444",
             color: "#365AD2",
             borderWidth: "1.5px",
           }}
           onClick={onOpen}
           mb="1em"
-          borderRadius={18}
+          borderRadius={0}
           zIndex="-1"
         >
           Deploy A New VMTree!
