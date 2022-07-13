@@ -32,7 +32,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="30vh"
+            pt="50vh"
             margin="150px"
             mb="5em"
             backgroundSize="contain"
@@ -75,7 +75,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="center"
             alignItems="center"
-            pt="6vh"
+            pt="50vh"
             mb="5em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"
@@ -94,7 +94,7 @@ const LandingPage = (props) => {
                 fontSize="6xl"
                 fontWeight="semibold"
               >
-                VMTree
+                VRMC
               </Heading>
               <Text letterSpacing="widest">VRMetaCenter</Text>
               <Link sx={{ textDecoration: "none" }}>
@@ -110,7 +110,7 @@ const LandingPage = (props) => {
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#3c3c3c" }}
                 >
-                  Try it!
+                  Buy tokens!
                 </Button>
               </Link>
             </Flex>
