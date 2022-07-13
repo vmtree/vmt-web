@@ -32,9 +32,9 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="50vh"
+            pt="150em"
             margin="150px"
-            mb="5em"
+            mb="55em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"
             backgroundPosition="right"
@@ -55,7 +55,7 @@ const LandingPage = (props) => {
                 <Button
                   variant="solid"
                   size="sm"
-                  mt="2em"
+                  mt="10em"
                   pl="2em"
                   pr="1em"
                   borderRadius={155}
