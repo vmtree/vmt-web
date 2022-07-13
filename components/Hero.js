@@ -35,7 +35,7 @@ const Hero = ({ handleVRMCCreation }) => {
       align="center"
       justify="center"
       boxSize="full"
-      maxH="30vh"
+      maxH="10vh"
       margin = "20px"
       minW="100hw"
       as="header"
