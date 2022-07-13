@@ -106,8 +106,8 @@ const ExploreVMTs = (props) => {
             borderRadius={155}
             boxShadow="md"
             padding="1em"
-            pl="5em"
-            pr="5em"
+            pl="40em"
+            pr="40em"
             fontSize="smaller"
             color="gray.600"
             margin="1em"
