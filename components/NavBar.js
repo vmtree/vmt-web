@@ -115,7 +115,7 @@ const Logo = (props) => {
   return (
     <Flex alignItems="center">
       <Link href="/" pl={5}>
-        <Image src="/VRMCrrturqalpha.png" alt="VRMC" boxSize="90%" />
+        <Image src="/VRMC_logo.svg" alt="VRMC" boxSize="90%" />
       </Link>
       <Link href="/" _hover={{ textDecoration: "none" }}>
         <Text

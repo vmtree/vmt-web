@@ -269,7 +269,16 @@ const LandingPage = (props) => {
         alignContent="center"
         alignItems="center"
       >
-      
+        <Flex w="0%" alignContent="center" alignItems="center">
+          <Text textAlign="center" letterSpacing="wide">
+            VMTree allows anyone to deploy a verifable merkle tree using the
+            chainlink network. Lorem ipsum condimentum ornare ante, at maximus
+            sapien porta sit amet. Morbi orci lectus, cursus ut ipsum convallis,
+            tempor feugiat quam. In vel odio non velit blandit lobortis. Mauris
+            quis quam fermentum, cursus quam at, dignissim ante.
+          </Text>
+        </Flex>
+      </Flex>
 
     
 
