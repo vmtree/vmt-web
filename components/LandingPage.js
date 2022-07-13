@@ -40,15 +40,7 @@ const LandingPage = (props) => {
             backgroundRepeat="no-repeat"
             w="full"
           >
-            <Flex
-              ml="15%"
-              bgColor="#3c3c3c"
-              borderBottomRadius="0%"
-              p="1%"
-              h="full"
-            >
-              <Image src="/vmt_logo_white.svg" boxSize="280px" alt="VMTree" />
-            </Flex>
+            
             <Flex mr="40%" flexDirection="column" h="full">
               <Heading
                 letterSpacing="widest"
@@ -111,7 +103,7 @@ const LandingPage = (props) => {
                   mt="2em"
                   pl="2em"
                   pr="1em"
-                  borderRadius={155}
+                  borderRadius={0}
                   bg="#3c3c3c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
