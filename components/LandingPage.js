@@ -36,7 +36,7 @@ const LandingPage = (props) => {
             margin="150px"
             mb="5em"
             backgroundSize="contain"
-            backgroundImage="url(/https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
+            backgroundImage="url(/https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80)"
             backgroundPosition="right"
             backgroundRepeat="no-repeat"
             w="full"
