@@ -75,7 +75,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="center"
             alignItems="center"
-            pt="50vh"
+            pt="30vh"
             mb="5em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"
