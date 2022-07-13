@@ -55,7 +55,7 @@ const LandingPage = (props) => {
                 fontSize="5xl"
                 fontWeight="semibold"
               >
-                VMTree
+                VRMeta Center & VRmeta Sports
               </Heading>
               <Text letterSpacing="widest">Verifiable Merkle Trees</Text>
               <Link sx={{ textDecoration: "none" }} href="/dapp">
@@ -71,7 +71,7 @@ const LandingPage = (props) => {
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#365AD2" }}
                 >
-                  Try it!
+                  Buy Tokens
                 </Button>
               </Link>
             </Flex>
@@ -124,9 +124,7 @@ const LandingPage = (props) => {
           </Flex>
         </Show>
 
-        <Text color="gray.300" mb="2em" letterSpacing="widest" fontSize="sm">
-          A Chainlink 2022 Hackathon Project
-        </Text>
+      
 
         <Flex
           justifyContent="space-around"
@@ -265,7 +263,7 @@ const LandingPage = (props) => {
             />
           </Link>
           <Text mt="1em" fontWeight="semibold">
-            Download the Docs
+            Read Documentation
           </Text>
         </Flex>
       </Flex>
@@ -289,15 +287,7 @@ const LandingPage = (props) => {
         </Flex>
       </Flex>
 
-      <Container justifyContent="center" mt="5%">
-        <AspectRatio maxW="560px" ratio={16 / 9}>
-          <iframe
-            title="naruto"
-            src="https://www.youtube.com/embed/ASFzsgIurMQ"
-            allowFullScreen
-          />
-        </AspectRatio>
-      </Container>
+    
 
       <Flex
         flexDirection="column"
@@ -309,7 +299,7 @@ const LandingPage = (props) => {
         id="team"
         justifyContent="center"
       >
-        <Heading>The Team</Heading>
+        <Heading>VRMC Team</Heading>
         <Flex
           flexDirection="row"
           align="center"

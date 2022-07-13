@@ -23,7 +23,7 @@ const Footer = () => {
       border="none"
     >
       <Text color="gray.300" mb="8em" letterSpacing="widest">
-        A Chainlink 2022 Hackathon Project
+        VRMeta Center - BEP20 Token
       </Text>
       <Flex
         flexDirection="column"
