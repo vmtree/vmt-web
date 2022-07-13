@@ -205,15 +205,7 @@ const LandingPage = (props) => {
           </Link>
         </Flex>
 
-        <Flex align="center" w="50%" mt="8%">
-          <Text textAlign="center" letterSpacing="wide">
-            VMTree allows anyone to deploy a verifable merkle tree using the
-            chainlink network. Lorem ipsum condimentum ornare ante, at maximus
-            sapien porta sit amet. Morbi orci lectus, cursus ut ipsum convallis,
-            tempor feugiat quam. In vel odio non velit blandit lobortis. Mauris
-            quis quam fermentum, cursus quam at, dignissim ante.
-          </Text>
-        </Flex>
+        
       </Flex>
 
       <Flex
@@ -228,10 +220,10 @@ const LandingPage = (props) => {
           backgroundColor="#3c3c3c"
           color="#fff"
           p="5%"
-          maxW="65%"
+          maxW="75%"
           ml={0}
-          borderTopRightRadius="35em"
-          borderBottomRightRadius="35em"
+          borderTopRightRadius="0"
+          borderBottomRightRadius="0"
           // backgroundImage="url(/blue_curved_box.svg)"
           // backgroundPosition="center"
           // backgroundRepeat="no-repeat"
