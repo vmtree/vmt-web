@@ -221,21 +221,16 @@ const LandingPage = (props) => {
           // backgroundSize="contain"
         >
           <Text fontSize="5xl" fontWeight="bold">
-            VMTs
+            VRMeta Center Spors
           </Text>
           <Text mt="1em">
-            This section will be for explaining what VMTs are, what they can be
-            used for an all kinds of stuff like that... Placeholder Text
+          We build breathtaking Virtual Reality experiences and 3D videos. 100% adapted to your business needs with an end to end digital process.
             <br />
             <br />
-            Placeholder Text Placeholder Text This section will be for
-            explaining what VMTs are, what they can be all kinds of stuff like
-            that... Placeholder Text Placeholde
+            We build breathtaking Virtual Reality experiences and 3D videos. 100% adapted to your business needs with an end to end digital process.
             <br />
             <br />
-            This section will be for explaining what VMTs are, what they can be
-            used for an all kinds of stuff like that... Placeholder Text
-            Placeholde
+            Play, Train, Manage, Coach, ManagerOwn, Sell, Staduim... and more
           </Text>
         </Flex>
         <Flex flexDirection="column" mr="10%" alignItems="center">
