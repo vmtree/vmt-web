@@ -33,6 +33,7 @@ const LandingPage = (props) => {
             justifyContent="space-between"
             alignItems="center"
             pt="5vh"
+            margin="150px"
             mb="5em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"

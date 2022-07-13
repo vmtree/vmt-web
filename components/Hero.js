@@ -36,6 +36,7 @@ const Hero = ({ handleVMTreeCreation }) => {
       justify="center"
       boxSize="full"
       maxH="5vh"
+      margin = "150px"
       minW="100hw"
       as="header"
       w="full"
