@@ -33,7 +33,7 @@ const Footer = () => {
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
         bgColor="#3c3c3c"
-        borderTopRadius="50%"
+        borderTopRadius="0px"
         w="full"
       >
         <Image
