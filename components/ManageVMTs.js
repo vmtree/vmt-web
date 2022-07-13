@@ -17,7 +17,7 @@ const ManageVMTs = (props) => {
     <Box paddingLeft="7%" paddingRight="7%">
       <Flex>
         <Text fontSize="xl" ml="2em" fontWeight="bold">
-          Manage VMTs
+          Staked VRMC
         </Text>
       </Flex>
 
