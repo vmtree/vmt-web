@@ -87,7 +87,7 @@ const ExploreVMTs = (props) => {
             margin="1em"
           >
             <Text>
-              <Image src="VRMCrrturqalpha.png" alt="enabled" />
+              <Image src="vrmctokenmimi.png" alt="enabled" />
             </Text>
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
@@ -112,7 +112,7 @@ const ExploreVMTs = (props) => {
             color="gray.600"
             margin="1em"
           >
-            <Image src="VRMCrrturqalpha.png" alt="enabled" />
+            <Image src="vrmctokenmini" alt="enabled" />
             <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
             <Text>0.01 BNB</Text>
             <Text>0.034 BNB</Text>
