@@ -32,7 +32,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="10vh"
+            p="10vh"
             margin="150px"
             mb="5em"
             backgroundSize="contain"
