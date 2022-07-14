@@ -50,7 +50,7 @@ const LandingPage = (props) => {
               >
                 VRMeta Center & VRmeta Sports
               </Heading>
-              <Text letterSpacing="widest">Verifia  ble Merkle Trees</Text>
+              <Text letterSpacing="widest">We build breathtaking Virtual Reality experiences and 3D videos. 100% adapted to your business needs with an end to end digital process</Text>
               <Link sx={{ textDecoration: "none" }} href="/dapp">
                 <Button
                   variant="solid"
@@ -105,7 +105,7 @@ const LandingPage = (props) => {
                   pl="2em"
                   pr="1em"
                   borderRadius={0}
-                  bg="#3c3c3c"
+                  backgroundImage="url(/https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1vrmcbackground.png)"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#3c3c3c" }}
@@ -128,13 +128,15 @@ const LandingPage = (props) => {
           pr="15%"
           padding-left="30px"
           backgroundSize="contain"
-          backgroundImage="url(/https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"
+          backgroundImage="url(/https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1vrmcbackground.png)"
           backgroundPosition="right"
           backgroundRepeat="no-repeat"
           w="full"
           bg="rgb(12 12 12 / 80%)"
           zIndex="0"
+          
         >
+          
           <Flex
             flexDirection="column"
             justifyContent="center"
