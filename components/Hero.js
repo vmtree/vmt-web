@@ -66,14 +66,14 @@ const Hero = ({ handleVRMCCreation }) => {
           borderRadius={0}
           zIndex="-1"
         >
-          Deploy A New VRMC!
+          Start staking!
         </Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent w="full">
             <ModalHeader justifyContent="center">
-              Deploy A New VRMC
+              Start staking
             </ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
