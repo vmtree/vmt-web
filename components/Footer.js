@@ -37,7 +37,7 @@ const Footer = () => {
         w="full"
       >
         <Image
-          src="/vrmctokenmini.pngmini.png"
+          src="/vrmctokenmini.png"
           alt="VRMC"
           mt="-4em"
           boxSize="150px"
@@ -45,7 +45,7 @@ const Footer = () => {
         <Flex flexDirection="column">
           <Flex>
             <Link
-              href="/vrmctokenmini.pngmini.png"
+              href="/vrmctokenmini.png"
               isExternal="true"
               sx={{ textDecoration: "none" }}
               _hover={{ textDecoration: "none" }}
