@@ -105,7 +105,7 @@ const LandingPage = (props) => {
                   pl="2em"
                   pr="1em"
                   borderRadius={0}
-                  backgroundImage="url(/https://images.pexels.com/photos/547115/pexels-photo-547115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1vrmcbackground.png)"
+                  bg="#ddd"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#3c3c3c" }}
