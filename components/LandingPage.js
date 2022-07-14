@@ -128,7 +128,7 @@ const LandingPage = (props) => {
           pr="15%"
           padding-left="30px"
           backgroundSize="contain"
-          backgroundImage="url(/vrmctoken.png)"
+          backgroundImage="url(/vrmctokenmini.png)"
           backgroundPosition="right"
           backgroundRepeat="no-repeat"
           w="full"
