@@ -15,7 +15,7 @@ import ManageVMTs from "../components/ManageVMTs";
 import ExploreVMTs from "../components/ExploreVMTs";
 import Footer from "../components/Footer";
 import { ConnectButton } from "web3uikit";
-import { useWeb3Contract } from "react-moralis";
+import { useWeb3Contract } from "react-";
 import { abi } from "../constants/abi";
 import Head from "next/head";
 
