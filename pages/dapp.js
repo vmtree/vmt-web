@@ -25,10 +25,10 @@ export default function Dapp() {
 
   const { runContractFunction } = useWeb3Contract({
     abi: abi,
-    contractAddress: "contractAddress", //TODO: put me
-    functionName: "functionName", //TODO: put me
+    contractAddress: "0x029Bef63A9aD0FA15BD390fCb4FC8D22b8FD3249", 
+    functionName: "functionName", 
     params: {
-      _param1: 1, //TODO: put me
+      [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"user","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"index","type":"uint256"},{"indexed":false,"internalType":"uint256","name":"timestamp","type":"uint256"}],"name":"Staked","type":"event"},{"inputs":[{"internalType":"address","name":"_staker","type":"address"}],"name":"hasStake","outputs":[{"components":[{"internalType":"uint256","name":"total_amount","type":"uint256"},{"components":[{"internalType":"address","name":"user","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"},{"internalType":"uint256","name":"since","type":"uint256"},{"internalType":"uint256","name":"claimable","type":"uint256"}],"internalType":"struct Stakeable.Stake[]","name":"stakes","type":"tuple[]"}],"internalType":"struct Stakeable.StakingSummary","name":"","type":"tuple"}],"stateMutability":"view","type":"function"}]
     },
   });
 
