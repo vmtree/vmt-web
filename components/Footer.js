@@ -17,6 +17,7 @@ const Footer = () => {
       pt="5em"
       minH="20em"
       alignItems="center"
+      backgroundImage="url(/footer_bg.svg)"
       justifyContent="center"
       mt="5em"
       p="0"

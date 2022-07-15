@@ -44,7 +44,7 @@ export default function Dapp() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Box w="100vw" maxW="100vw" mt="0" m="auto">
-        <NavBar as="header" position="fixed" w="100%" pageType="dapp_page"/>
+        <NavBar as="header" backgroundImage="url(/vrmctokenmini.png)" position="fixed" w="100%" pageType="dapp_page"/>
         <Hero handleVRMCCreation={handleVRMCCreation} />
         <ManageVMTs />
         <ExploreVMTs />
