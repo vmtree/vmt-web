@@ -92,7 +92,7 @@ const SecondButton = ({ pageType }) => {
           variant="solid"
           size="md"
           mr="1em"
-          borderRadius={18}
+          borderRadius={0}
           bg="#fff"
           _hover={{ background: "#2c4cb6", color: "#fff" }}
         >
@@ -115,14 +115,14 @@ const Logo = (props) => {
   return (
     <Flex alignItems="center">
       <Link href="/" pl={5}>
-        <Image src="/VRMCrrturqalpha.png" alt="VRMC" boxSize="100px" />
+        <Image src="/VRMCrrturqalpha.png" alt="VRMC" boxSize="110px" />
       </Link>
       <Link href="/" _hover={{ textDecoration: "none" }}>
         <Text
           color="whiteAlpha.900"
           fontWeight="bold"
           textAlign="center"
-          fontSize={36}
+          fontSize={42}
           letterSpacing="wider"
         >
           VRMC

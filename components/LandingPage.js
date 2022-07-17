@@ -36,7 +36,7 @@ const LandingPage = (props) => {
             margin="150px"
             mb="5em"
             backgroundSize="contain"
-            backgroundImage="url(/https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvY2tjaGFpbnxlbnwwfHwwfHw%3D&w=1000&q=80)"
+            backgroundImage="url(/vrmcbackground.png)"
             backgroundPosition="right"
             backgroundRepeat="no-repeat"
             w="full"
@@ -58,8 +58,8 @@ const LandingPage = (props) => {
                   mt="2em"
                   pl="2em"
                   pr="1em"
-                  borderRadius={155}
-                  bg="#3c3c3c"
+                  borderRadius={0}
+                  bg="#1a202c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
                   _hover={{ background: "#fff", color: "#3c3c3c" }}
@@ -132,7 +132,7 @@ const LandingPage = (props) => {
           backgroundPosition="right"
           backgroundRepeat="no-repeat"
           w="full"
-          bg="rgb(12 12 12 / 80%)"
+          bg="rgb(26 32 44)"
           zIndex="0"
           
         >
