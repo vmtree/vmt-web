@@ -22,7 +22,7 @@ import {
 import { useState } from "react";
 import { Icon, Input, Typography } from "web3uikit";
 
-const Hero = ({ handleVMTreeCreation }) => {
+const Hero = ({ handleVRMCCreation }) => {
   const [modalVisible, setModalVisible] = useState(false);
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -35,7 +35,8 @@ const Hero = ({ handleVMTreeCreation }) => {
       align="center"
       justify="center"
       boxSize="full"
-      maxH="5vh"
+      maxH="10vh"
+      margin = "20px"
       minW="100hw"
       as="header"
       w="full"
@@ -45,34 +46,34 @@ const Hero = ({ handleVMTreeCreation }) => {
         flexDirection="column"
         justifyContent="space-between"
         alignItems="center"
-        onClick={handleVMTreeCreation}
+        onClick={handleVRMCCreation}
       >
         <Link>
-          <Image src="/add_new_vmt_icon.svg" alt="VMTree" mt="5em" />
+          <Image src="#" alt="VRMC" mt="5em" />
         </Link>
         <Button
-          bgColor="#365AD2"
+          bgColor="#3c3c3c"
           color="#fff"
           leftIcon={<AddIcon />}
           _hover={{
             background: "#fff",
-            borderColor: "#365AD2",
+            borderColor: "#3c3c3c",
             color: "#365AD2",
             borderWidth: "1.5px",
           }}
           onClick={onOpen}
           mb="1em"
-          borderRadius={18}
+          borderRadius={0}
           zIndex="-1"
         >
-          Deploy A New VMTree!
+          Start staking!
         </Button>
 
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent w="full">
             <ModalHeader justifyContent="center">
-              Deploy A New VMTree
+              Start staking
             </ModalHeader>
             <ModalCloseButton />
             <ModalBody pb={6}>
@@ -91,7 +92,7 @@ const Hero = ({ handleVMTreeCreation }) => {
               </FormControl>
 
               <FormControl mt={4}>
-                <FormLabel>LINKs to Prefund the VMTree</FormLabel>
+                <FormLabel>LINKs to Prefund the VRMC</FormLabel>
                 <Input placeholder="Enter #LINK" width="32em" />
               </FormControl>
             </ModalBody>
@@ -106,11 +107,11 @@ const Hero = ({ handleVMTreeCreation }) => {
                 Close
               </Button>
               <Button
-                bgColor="#365AD2"
+                bgColor="#3c3c3c"
                 color="#fff"
                 _hover={{
                   background: "#fff",
-                  borderColor: "#365AD2",
+                  borderColor: "#3c3c3c",
                   color: "#365AD2",
                   borderWidth: "1.5px",
                 }}

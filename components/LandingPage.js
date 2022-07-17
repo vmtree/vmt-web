@@ -32,32 +32,25 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="space-between"
             alignItems="center"
-            pt="5vh"
+            p="10vh"
+            margin="150px"
             mb="5em"
             backgroundSize="contain"
-            backgroundImage="url(/tree_skeleton_small.svg)"
+            backgroundImage="url(/vrmcbackground.png)"
             backgroundPosition="right"
             backgroundRepeat="no-repeat"
             w="full"
           >
-            <Flex
-              ml="15%"
-              bgColor="#365AD2"
-              borderBottomRadius="50%"
-              p="1%"
-              h="full"
-            >
-              <Image src="/vmt_logo_white.svg" boxSize="280px" alt="VMTree" />
-            </Flex>
+            
             <Flex mr="40%" flexDirection="column" h="full">
               <Heading
                 letterSpacing="widest"
                 fontSize="5xl"
                 fontWeight="semibold"
               >
-                VMTree
+                VRMeta Center & VRmeta Sports
               </Heading>
-              <Text letterSpacing="widest">Verifiable Merkle Trees</Text>
+              <Text letterSpacing="widest">We build breathtaking Virtual Reality experiences and 3D videos. 100% adapted to your business needs with an end to end digital process</Text>
               <Link sx={{ textDecoration: "none" }} href="/dapp">
                 <Button
                   variant="solid"
@@ -65,13 +58,13 @@ const LandingPage = (props) => {
                   mt="2em"
                   pl="2em"
                   pr="1em"
-                  borderRadius={155}
-                  bg="#365AD2"
+                  borderRadius={0}
+                  bg="#1a202c"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
-                  _hover={{ background: "#fff", color: "#365AD2" }}
+                  _hover={{ background: "#fff", color: "#3c3c3c" }}
                 >
-                  Try it!
+                  Buy Tokens
                 </Button>
               </Link>
             </Flex>
@@ -82,7 +75,7 @@ const LandingPage = (props) => {
           <Flex
             justifyContent="center"
             alignItems="center"
-            pt="6vh"
+            pt="30vh"
             mb="5em"
             backgroundSize="contain"
             backgroundImage="url(/tree_skeleton_small.svg)"
@@ -101,9 +94,9 @@ const LandingPage = (props) => {
                 fontSize="6xl"
                 fontWeight="semibold"
               >
-                VMTree
+                VRMC
               </Heading>
-              <Text letterSpacing="widest">Verifiable Merkle Trees</Text>
+              <Text letterSpacing="widest">VRMetaCenter</Text>
               <Link sx={{ textDecoration: "none" }}>
                 <Button
                   variant="solid"
@@ -111,22 +104,20 @@ const LandingPage = (props) => {
                   mt="2em"
                   pl="2em"
                   pr="1em"
-                  borderRadius={155}
-                  bg="#365AD2"
+                  borderRadius={0}
+                  bg="#ddd"
                   color="#fff"
                   rightIcon={<ChevronRightIcon />}
-                  _hover={{ background: "#fff", color: "#365AD2" }}
+                  _hover={{ background: "#fff", color: "#3c3c3c" }}
                 >
-                  Try it!
+                  Buy tokens!
                 </Button>
               </Link>
             </Flex>
           </Flex>
         </Show>
 
-        <Text color="gray.300" mb="2em" letterSpacing="widest" fontSize="sm">
-          A Chainlink 2022 Hackathon Project
-        </Text>
+      
 
         <Flex
           justifyContent="space-around"
@@ -135,24 +126,27 @@ const LandingPage = (props) => {
           pb="3em"
           pl="15%"
           pr="15%"
+          padding-left="30px"
           backgroundSize="contain"
-          backgroundImage="url(/tree_skeleton_small.svg)"
+          backgroundImage="url(/vrmctokenmini.png)"
           backgroundPosition="right"
           backgroundRepeat="no-repeat"
           w="full"
-          bg="#365AD2"
+          bg="rgb(26 32 44)"
           zIndex="0"
+          
         >
+          
           <Flex
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              38
+              VRMeta Center
             </Text>
             <Text fontSize="sm" color="#fff">
-              Merke Trees Deployed
+              Token name
             </Text>
           </Flex>
           <Center height="50px">
@@ -164,10 +158,10 @@ const LandingPage = (props) => {
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              287
+              VRMC
             </Text>
             <Text fontSize="sm" color="#fff">
-              Transactions
+              SYMBOL
             </Text>
           </Flex>
           <Center height="50px">
@@ -179,10 +173,10 @@ const LandingPage = (props) => {
             alignItems="center"
           >
             <Text fontSize="2xl" color="#fff">
-              5982
+              1000000000000
             </Text>
             <Text fontSize="sm" color="#fff">
-              Fee Generated
+              SUPPLY
             </Text>
           </Flex>
         </Flex>
@@ -198,22 +192,14 @@ const LandingPage = (props) => {
           >
             <ChevronDownIcon
               boxSize="10"
-              borderRadius="50%"
+              borderRadius="0%"
               color="#365AD2"
               zIndex="9999"
             />
           </Link>
         </Flex>
 
-        <Flex align="center" w="50%" mt="8%">
-          <Text textAlign="center" letterSpacing="wide">
-            VMTree allows anyone to deploy a verifable merkle tree using the
-            chainlink network. Lorem ipsum condimentum ornare ante, at maximus
-            sapien porta sit amet. Morbi orci lectus, cursus ut ipsum convallis,
-            tempor feugiat quam. In vel odio non velit blandit lobortis. Mauris
-            quis quam fermentum, cursus quam at, dignissim ante.
-          </Text>
-        </Flex>
+        
       </Flex>
 
       <Flex
@@ -225,34 +211,29 @@ const LandingPage = (props) => {
       >
         <Flex
           flexDirection="column"
-          backgroundColor="#365AD2"
+          backgroundColor="#3c3c3c"
           color="#fff"
           p="5%"
-          maxW="65%"
+          maxW="75%"
           ml={0}
-          borderTopRightRadius="35em"
-          borderBottomRightRadius="35em"
+          borderTopRightRadius="0"
+          borderBottomRightRadius="0"
           // backgroundImage="url(/blue_curved_box.svg)"
           // backgroundPosition="center"
           // backgroundRepeat="no-repeat"
           // backgroundSize="contain"
         >
           <Text fontSize="5xl" fontWeight="bold">
-            VMTs
+            VRMC Sports
           </Text>
           <Text mt="1em">
-            This section will be for explaining what VMTs are, what they can be
-            used for an all kinds of stuff like that... Placeholder Text
+          We build breathtaking Virtual Reality experiences and 3D videos. 100% adapted to your business needs with an end to end digital process
             <br />
             <br />
-            Placeholder Text Placeholder Text This section will be for
-            explaining what VMTs are, what they can be all kinds of stuff like
-            that... Placeholder Text Placeholde
+            Your role is determined by your goals. Just some of the options that can be filled with experience and passion
             <br />
             <br />
-            This section will be for explaining what VMTs are, what they can be
-            used for an all kinds of stuff like that... Placeholder Text
-            Placeholde
+            Play Tran Coach Manage Own, Sell, Earn
           </Text>
         </Flex>
         <Flex flexDirection="column" mr="10%" alignItems="center">
@@ -267,13 +248,13 @@ const LandingPage = (props) => {
           >
             <DownloadIcon
               boxSize="80px"
-              color="#365AD2"
+              color="#3c3c3c"
               zIndex="9999"
               p="20%"
             />
           </Link>
           <Text mt="1em" fontWeight="semibold">
-            Download the Docs
+            Read Documentation
           </Text>
         </Flex>
       </Flex>
@@ -286,26 +267,10 @@ const LandingPage = (props) => {
         alignContent="center"
         alignItems="center"
       >
-        <Flex w="50%" alignContent="center" alignItems="center">
-          <Text textAlign="center" letterSpacing="wide">
-            VMTree allows anyone to deploy a verifable merkle tree using the
-            chainlink network. Lorem ipsum condimentum ornare ante, at maximus
-            sapien porta sit amet. Morbi orci lectus, cursus ut ipsum convallis,
-            tempor feugiat quam. In vel odio non velit blandit lobortis. Mauris
-            quis quam fermentum, cursus quam at, dignissim ante.
-          </Text>
-        </Flex>
+        
       </Flex>
 
-      <Container justifyContent="center" mt="5%">
-        <AspectRatio maxW="560px" ratio={16 / 9}>
-          <iframe
-            title="naruto"
-            src="https://www.youtube.com/embed/ASFzsgIurMQ"
-            allowFullScreen
-          />
-        </AspectRatio>
-      </Container>
+    
 
       <Flex
         flexDirection="column"
@@ -317,7 +282,7 @@ const LandingPage = (props) => {
         id="team"
         justifyContent="center"
       >
-        <Heading>The Team</Heading>
+        <Heading>VRMC Team</Heading>
         <Flex
           flexDirection="row"
           align="center"

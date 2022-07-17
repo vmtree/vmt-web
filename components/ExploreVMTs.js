@@ -16,7 +16,7 @@ const ExploreVMTs = (props) => {
     <Box paddingLeft="7%" paddingRight="7%">
       <Flex>
         <Text fontSize="xl" ml="2em" fontWeight="bold">
-          Explore VMTs
+          Last staked VRMC
         </Text>
       </Flex>
 
@@ -87,13 +87,13 @@ const ExploreVMTs = (props) => {
             margin="1em"
           >
             <Text>
-              <Image src="enabled_vmt.svg" alt="enabled" />
+              <Image src="vrmctokenmimi.png" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -106,44 +106,18 @@ const ExploreVMTs = (props) => {
             borderRadius={155}
             boxShadow="md"
             padding="1em"
-            pl="5em"
-            pr="5em"
+            pl="40em"
+            pr="40em"
             fontSize="smaller"
             color="gray.600"
             margin="1em"
           >
-            <Image src="enabled_vmt.svg" alt="enabled" />
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
-            <Text>
-              <Link href="#">
-                <SettingsIcon />
-              </Link>
-            </Text>
-          </Flex>
-          <Flex
-            justifyContent="space-between"
-            backgroundColor="#fff"
-            borderRadius={155}
-            boxShadow="md"
-            padding="1em"
-            pl="5em"
-            pr="5em"
-            fontSize="smaller"
-            color="gray.600"
-            margin="1em"
-          >
-            <Text>
-              <Image src="enabled_vmt.svg" alt="enabled" />
-            </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Image src="vrmctokenmini" alt="enabled" />
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -165,11 +139,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -191,11 +165,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -217,11 +191,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -243,11 +217,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -269,11 +243,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -295,11 +269,11 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -321,11 +295,37 @@ const ExploreVMTs = (props) => {
             <Text>
               <Image src="enabled_vmt.svg" alt="enabled" />
             </Text>
-            <Text>0xdAC17F958D2ee523a2206206994597C13D831ec7</Text>
-            <Text>Test Merkle Tree #1</Text>
-            <Text>28.7502 LINK</Text>
-            <Text isNumeric>72</Text>
-            <Text>10.05.2022</Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
+            <Text>
+              <Link href="#">
+                <SettingsIcon />
+              </Link>
+            </Text>
+          </Flex>
+          <Flex
+            justifyContent="space-between"
+            backgroundColor="#fff"
+            borderRadius={155}
+            boxShadow="md"
+            padding="1em"
+            pl="5em"
+            pr="5em"
+            fontSize="smaller"
+            color="gray.600"
+            margin="1em"
+          >
+            <Text>
+              <Image src="enabled_vmt.svg" alt="enabled" />
+            </Text>
+            <Text>0x9eEF87dD05c10dF6604BAafB2F944fE087Fe095d</Text>
+            <Text>0.01 BNB</Text>
+            <Text>0.034 BNB</Text>
+            <Text isNumeric>100</Text>
+            <Text>13.07.2022</Text>
             <Text>
               <Link href="#">
                 <SettingsIcon />
@@ -347,7 +347,7 @@ const ExploreVMTs = (props) => {
               pl="2em"
               pr="1em"
               borderRadius={155}
-              bg="#365AD2"
+              bg="#3c3c3c"
               color="#fff"
               rightIcon={<ChevronDownIcon />}
               _hover={{ background: "#fff", color: "#365AD2" }}

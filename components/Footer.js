@@ -17,13 +17,14 @@ const Footer = () => {
       pt="5em"
       minH="20em"
       alignItems="center"
+      backgroundImage="url(/footer_bg.svg)"
       justifyContent="center"
       mt="5em"
       p="0"
       border="none"
     >
       <Text color="gray.300" mb="8em" letterSpacing="widest">
-        A Chainlink 2022 Hackathon Project
+        VRMeta Center - BEP20 Token
       </Text>
       <Flex
         flexDirection="column"
@@ -32,20 +33,20 @@ const Footer = () => {
         backgroundImage="url(/footer_bg.svg)"
         backgroundPosition="center"
         backgroundRepeat="no-repeat"
-        bgColor="#365AD2"
-        borderTopRadius="50%"
+        bgColor="#3c3c3c"
+        borderTopRadius="0px"
         w="full"
       >
         <Image
-          src="/vmt_logo_white.svg"
-          alt="VMTree"
+          src="/vrmctokenmini.png"
+          alt="VRMC"
           mt="-4em"
           boxSize="150px"
         />
         <Flex flexDirection="column">
           <Flex>
             <Link
-              href="https://github.com/vmtree/chainlink-vmt/"
+              href="/vrmctokenmini.png"
               isExternal="true"
               sx={{ textDecoration: "none" }}
               _hover={{ textDecoration: "none" }}
@@ -59,7 +60,7 @@ const Footer = () => {
                 _hover={{ background: "#2c4cb6", color: "#fff" }}
                 sx={{ textDecoration: "none" }}
               >
-                GITHUB
+                Documentation
               </Button>
             </Link>
             {/* TODO: add docs link here */}
@@ -77,13 +78,13 @@ const Footer = () => {
                 bg="#fff"
                 _hover={{ background: "#2c4cb6", color: "#fff" }}
               >
-                ABOUT
+                DAPP
               </Button>
             </Link>
           </Flex>
         </Flex>
         <Code color="whiteAlpha.600" mb="2em" mt="4em" fontSize="sm" bg="none">
-          © Copyright 2022 VMTree - All rights reserved
+          © Copyright 2022 VRMC - All rights reserved
         </Code>
       </Flex>
     </Flex>

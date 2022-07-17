@@ -92,7 +92,7 @@ const SecondButton = ({ pageType }) => {
           variant="solid"
           size="md"
           mr="1em"
-          borderRadius={18}
+          borderRadius={0}
           bg="#fff"
           _hover={{ background: "#2c4cb6", color: "#fff" }}
         >
@@ -105,7 +105,7 @@ const SecondButton = ({ pageType }) => {
     <ConnectButton
       color="blue"
       moralisAuth={false}
-      signingMessage="Sign to login to VMTree"
+      signingMessage="Sign to login to VRMC"
       zIndex="2147483647"
     />
   );
@@ -115,17 +115,17 @@ const Logo = (props) => {
   return (
     <Flex alignItems="center">
       <Link href="/" pl={5}>
-        <Image src="/vmtree_logo.svg" alt="VMTree" boxSize="90%" />
+        <Image src="/VRMCrrturqalpha.png" alt="VRMC" boxSize="110px" />
       </Link>
       <Link href="/" _hover={{ textDecoration: "none" }}>
         <Text
           color="whiteAlpha.900"
           fontWeight="bold"
           textAlign="center"
-          fontSize={36}
+          fontSize={42}
           letterSpacing="wider"
         >
-          VMTree
+          VRMC
         </Text>
       </Link>
     </Flex>
@@ -142,7 +142,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={2}
-      bg="#365AD2"
+      bg="#3c3c3c"
       {...props}
     >
       {children}
